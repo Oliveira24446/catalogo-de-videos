@@ -1,0 +1,59 @@
+body {
+    color: rgb(255, 255, 255);
+    background: black;
+    margin: 0px;
+    font-family: "Fjalla One", sans-serif;
+    margin-bottom: 100px;
+}
+header {
+    border-bottom: solid 2px rgb(17, 181, 231);
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(228, 9, 9);
+    text-align: center;
+    font-weight: 800;
+}
+.chamada {
+    background: rgb(8, 8, 8);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 2px solid rgb(179, 5, 202);
+}
+
+.categoria h2 {
+    color: rgb(255, 30, 0);
+}
